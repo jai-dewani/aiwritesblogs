@@ -1,13 +1,13 @@
 module.exports = {
-  pathPrefix: "/blogsbyai",
+  pathPrefix: "/aiwritesblogs",
   siteMetadata: {
-    title: `Blogs by JaiD`,
+    title: `Blogs by JaiD's AI`,
     author: {
       name: `Jai Kumar Dewani`,
       summary: `is a Software Engineer at Carl Zeiss, who loves to learn and build cool things`,
     },
     description: `A personal blog of Jai.`,
-    siteUrl: `https://jai-dewani.github.io/blogsbyai/`,
+    siteUrl: `https://jai-dewani.github.io/aiwritesblogs/`,
     social: {
       twitter: `jai_dewani`,
     },
@@ -100,7 +100,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Blogs by JaiD"
+            title: "Blogs by JaiD's AI"
           },
         ],
       },

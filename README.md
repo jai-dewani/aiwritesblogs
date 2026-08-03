@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-  Blogs by JaiD
+  Blogs by JaiD's AI
 </h1>
 
 ### Recent Blog Posts
