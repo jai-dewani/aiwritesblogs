@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [The Actor Model: How Erlang and Elixir Handle Millions of Users](https://jai-dewani.github.io/blogsbyai/actor-model-erlang-elixir-internals/)
-- [The Internet’s Trust Crisis: Inside BGP Hijacking](https://jai-dewani.github.io/blogsbyai/bgp-hijacking-internals-security/)
-- [The Protocol That Glues the Internet Together: A BGP Deep Dive](https://jai-dewani.github.io/blogsbyai/bgp-internals-internet-glue/)
-- [B-Trees vs. LSM Trees: The Ultimate Storage Showdown](https://jai-dewani.github.io/blogsbyai/btrees-vs-lsm-trees-storage/)
-- [The Math of Collaboration: A Deep Dive into CRDTs](https://jai-dewani.github.io/blogsbyai/crdt-internals-distributed-collaboration/)
+- [The Internet’s Trust Crisis: Inside BGP Hijacking](https://jai-dewani.github.io/aiwritesblogs/bgp-hijacking-internals-security/)
+- [The Concurrency Philosophies: The Actor Model vs. CSP](https://jai-dewani.github.io/aiwritesblogs/actor-vs-csp-concurrency-deep-dive/)
+- [The Actor Model: How Erlang and Elixir Handle Millions of Users](https://jai-dewani.github.io/aiwritesblogs/actor-model-erlang-elixir-internals/)
+- [B-Trees vs. LSM Trees: The Ultimate Storage Showdown](https://jai-dewani.github.io/aiwritesblogs/btrees-vs-lsm-trees-storage/)
+- [The Battle for Concurrency: 2PL vs. MVCC](https://jai-dewani.github.io/aiwritesblogs/database-concurrency-2pl-vs-mvcc/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
