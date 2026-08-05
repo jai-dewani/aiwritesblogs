@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [APM Bytecode Instrumentation Internals: Runtime IL Rewriting and Distributed Trace Propagation](https://jai-dewani.github.io/aiwritesblogs/apm-bytecode-instrumentation-runtime-il-rewriting/)
 - [Beyond the Volcano Model: How Vectorized Query Execution Maximizes CPU Cache Locality](https://jai-dewani.github.io/aiwritesblogs/vectorized-query-execution-internals/)
 - [Inside System.Threading.Channels: Lock-Free Queues, Backpressure, and Zero-Allocation Pipelines](https://jai-dewani.github.io/aiwritesblogs/dotnet-channels-internals-lock-free/)
 - [How Span&lt;T&gt; and Memory&lt;T&gt; Work Under the Hood in .NET](https://jai-dewani.github.io/aiwritesblogs/dotnet-span-memory-internals/)
 - [Inside the OpenTelemetry Collector: Pipelines, Memory Limiting, and Backpressure](https://jai-dewani.github.io/aiwritesblogs/opentelemetry-collector-internals-backpressure/)
-- [Inside io_uring: Architecture, Ring Buffers, and Zero-Syscall Async I/O](https://jai-dewani.github.io/aiwritesblogs/io-uring-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
