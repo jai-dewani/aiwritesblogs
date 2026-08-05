@@ -75,16 +75,16 @@ def main():
 
     # Map your local config model to the free cloud model
     model_mapping = {
-        "gemini-3.1-pro-high": "gemini-1.5-pro",
-        "gemini-3.1-pro-low": "gemini-1.5-pro",
-        "gemini-3.5-flash-high": "gemini-1.5-flash",
-        "gemini-3.5-flash-medium": "gemini-1.5-flash",
-        "gemini-3.5-flash-low": "gemini-1.5-flash",
-        "gemini-3.6-flash-high": "gemini-1.5-flash",
-        "gemini-3.6-flash-medium": "gemini-1.5-flash",
-        "gemini-3.6-flash-low": "gemini-1.5-flash"
+        "gemini-3.1-pro-high": "gemini-1.5-pro-latest",
+        "gemini-3.1-pro-low": "gemini-1.5-pro-latest",
+        "gemini-3.5-flash-high": "gemini-1.5-flash-latest",
+        "gemini-3.5-flash-medium": "gemini-1.5-flash-latest",
+        "gemini-3.5-flash-low": "gemini-1.5-flash-latest",
+        "gemini-3.6-flash-high": "gemini-1.5-flash-latest",
+        "gemini-3.6-flash-medium": "gemini-1.5-flash-latest",
+        "gemini-3.6-flash-low": "gemini-1.5-flash-latest"
     }
-    api_model = model_mapping.get(model, "gemini-1.5-pro")
+    api_model = model_mapping.get(model, "gemini-1.5-pro-latest")
     print(f"Calling Gemini API endpoint for model: {api_model}...")
 
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{api_model}:generateContent?key={api_key}"
