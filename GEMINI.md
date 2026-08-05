@@ -24,13 +24,13 @@ When writing, I MUST strictly adhere to these rules to ensure a natural, human-l
 1. **Research:** Explore technical documentation, source code repositories, and deep-dive technical articles.
 2. **Drafting:** 
    - Create a new directory: `content/blog/[slug]/index.md`
-   - **Fixed Date:** Frontmatter `date` MUST always be `"2026-06-10T09:00:00.000Z"`.
+   - **Date:** Frontmatter `date` MUST always be today's date and time in UTC ISO format (e.g. `"2026-08-03T15:30:00.000Z"`).
    - **Mandatory Quoting:** Frontmatter `title`, `date`, and `description` MUST be wrapped in double quotes **EXACTLY ONCE**.
    - Frontmatter MUST match this format:
      ```yaml
      ---
      title: "[Technical Title]"
-     date: "2026-06-10T09:00:00.000Z"
+     date: "[Current UTC Date/Time]"
      description: "[One sentence technical summary]"
      ---
      ```

@@ -18,3 +18,27 @@ jobs:
           access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
+
+      - name: Send notification if new blog post was added
+        if: success() && contains(github.event.head_commit.message, 'add blog post about')
+        run: |
+          COMMIT_MSG="${{ github.event.head_commit.message }}"
+          SLUG=$(echo "$COMMIT_MSG" | sed -n 's/.*about //p')
+          if [ -n "$SLUG" ] && [ -f "content/blog/$SLUG/index.md" ]; then
+            NTFY_TOPIC=$(python3 -c "import json; print(json.load(open('config.json')).get('ntfy_topic', ''))")
+            if [ -n "$NTFY_TOPIC" ] && [ "$NTFY_TOPIC" != "None" ] && [ "$NTFY_TOPIC" != "" ]; then
+              TITLE=$(grep '^title:' "content/blog/$SLUG/index.md" | head -n 1 | sed 's/title: "//' | sed 's/"$//')
+              SITE_URL=$(python3 -c "import re; content=open('gatsby-config.js').read(); m=re.search(r'siteUrl:\s*[\`\"\']([^\`\"\']+)[\`\"\']', content); print(m.group(1).rstrip('/') if m else 'https://jai-dewani.github.io/aiwritesblogs')")
+              BLOG_URL="$SITE_URL/$SLUG/"
+              
+              echo "Sending notification to ntfy.sh topic: $NTFY_TOPIC for slug: $SLUG"
+              curl -H "Title: New Blog Published: $TITLE" \
+                   -H "Click: $BLOG_URL" \
+                   -H "X-Click: $BLOG_URL" \
+                   -H "Priority: 4" \
+                   -H "Tags: memo,rocket" \
+                   -d "An ultra-deep technical blog has been published and is now ready to read!" \
+                   "https://ntfy.sh/$NTFY_TOPIC"
+            fi
+          fi
+
