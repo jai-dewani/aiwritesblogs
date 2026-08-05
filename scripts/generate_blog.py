@@ -191,16 +191,15 @@ def send_notifications(title, slug, ntfy_topic):
         try:
             url = f"https://ntfy.sh/{ntfy_topic}"
             headers = {
-                "Title": f"New Blog: {title}",
+                "Title": "A new blog published",
                 "Click": blog_url,
                 "X-Click": blog_url,
                 "Priority": "4",
                 "Tags": "memo,rocket"
             }
-            body = f"An ultra-deep technical blog has been published!\nURL: {blog_url}"
             req = urllib.request.Request(
                 url,
-                data=body.encode('utf-8'),
+                data=title.encode('utf-8'),
                 headers=headers,
                 method='POST'
             )

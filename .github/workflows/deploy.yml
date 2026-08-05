@@ -32,12 +32,12 @@ jobs:
               BLOG_URL="$SITE_URL/$SLUG/"
               
               echo "Sending notification to ntfy.sh topic: $NTFY_TOPIC for slug: $SLUG"
-              curl -H "Title: New Blog Published: $TITLE" \
+              curl -H "Title: A new blog published" \
                    -H "Click: $BLOG_URL" \
                    -H "X-Click: $BLOG_URL" \
                    -H "Priority: 4" \
                    -H "Tags: memo,rocket" \
-                   -d "An ultra-deep technical blog has been published and is now ready to read!" \
+                   -d "$TITLE" \
                    "https://ntfy.sh/$NTFY_TOPIC"
             fi
           fi
