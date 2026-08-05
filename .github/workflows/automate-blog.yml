@@ -1,0 +1,69 @@
+name: AI Blog Generator
+
+on:
+  schedule:
+    # 3:30 AM UTC = 9:00 AM IST
+    # 11:30 AM UTC = 5:00 PM IST
+    - cron: '30 3,11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  generate-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Generate Blog Post (Cloud API)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python3 scripts/generate_blog_cloud.py
+
+      - name: Commit and Push Changes
+        run: |
+          # Check if there are any new files in content/blog/
+          if [ -n "$(git status --porcelain content/blog/)" ]; then
+            echo "New blog post detected, preparing to commit..."
+            
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            
+            git add content/blog/
+            
+            # Extract slug robustly
+            LATEST_SLUG=$(git status --porcelain content/blog/ | grep -E '^\?\?|^ A' | head -n 1 | awk '{print $2}')
+            SLUG="${LATEST_SLUG#content/blog/}"
+            SLUG="${SLUG%%/*}"
+            
+            COMMIT_MSG="add blog post about $SLUG"
+            echo "Committing with message: '$COMMIT_MSG'"
+            git commit -m "$COMMIT_MSG"
+            
+            echo "Pushing to main branch..."
+            git push origin main
+            
+            # We set an environment variable for the next step so it knows we pushed
+            echo "PUSHED_NEW_POST=true" >> $GITHUB_ENV
+          else
+            echo "No new blog post was generated. Exiting."
+            echo "PUSHED_NEW_POST=false" >> $GITHUB_ENV
+          fi
+
+      - name: Trigger Gatsby Publish Workflow
+        if: env.PUSHED_NEW_POST == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Trigger the deploy workflow to publish the site and send the notification
+          echo "Triggering the Gatsby Publish workflow to deploy the new post..."
+          gh workflow run "Gatsby Publish" --ref main
