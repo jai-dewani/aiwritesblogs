@@ -10,15 +10,6 @@ Your blogs cluster around a few recurring themes: you like understanding **how t
 
 ---
 
-## Things I Am Actively Working On
-
-These are technologies, tools, and platforms I am currently working with. The blog agent can use this list to brainstorm deep dives, performance guides, tutorials, or updates about:
-- **Kubernetes**: Container orchestration, pod scheduling, cluster operations, service meshes, and cloud-native architecture.
-- **New Relic & NRQL (New Relic Query Language)**: Telemetry data querying, dashboard optimization, application performance monitoring (APM), and custom alert configurations.
-- **System Metrics & Measurement**: System performance metrics, telemetry collection, monitoring distributed systems, and alert design.
-
----
-
 ## 1. Software Architecture & Design Patterns
 
 **What you've already covered:** CQRS, Composition over Inheritance, NgRx/Redux state management, Middleware pipelines
@@ -87,6 +78,13 @@ These are technologies, tools, and platforms I am currently working with. The bl
 **Topics you'd likely dig into:**
 - **Signals-based reactivity** (Angular Signals, Solid.js, or the concept in general). If NgRx interested you, the shift toward signals as a simpler state management primitive might catch your attention.
 - **Web Components and the Shadow DOM.** The "how does this actually work" angle for frontend, similar to how you explore backend framework internals.
+
+---
+
+## Things I Am Actively Working On
+
+These are technologies, tools, and platforms I am currently working with. 
+- **New Relic & NRQL (New Relic Query Language)**: Telemetry data querying, dashboard optimization, application performance monitoring (APM), and custom alert configurations.
 
 ---
 

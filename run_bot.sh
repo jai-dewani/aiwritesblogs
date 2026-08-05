@@ -24,8 +24,9 @@ if [ $EXIT_CODE -eq 0 ]; then
   NEW_FILE=$(git status --porcelain content/blog/ | grep -E '^\?\?|^ A' | head -n 1 | awk '{print $2}')
   
   if [ -n "$NEW_FILE" ]; then
-    # Extract slug (parent directory of the file)
-    SLUG=$(basename "$(dirname "$NEW_FILE")")
+    # Extract slug (strip content/blog/ prefix and any trailing paths)
+    SLUG="${NEW_FILE#content/blog/}"
+    SLUG="${SLUG%%/*}"
     
     echo "New blog post detected for slug: '$SLUG'"
     echo "Staging files..."
