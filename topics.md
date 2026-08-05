@@ -21,18 +21,7 @@ Your blogs cluster around a few recurring themes: you like understanding **how t
 - **Clean Architecture / Vertical Slice Architecture** in .NET. You clearly care about code organization (composition over inheritance, middleware layering). These patterns are the natural next step.
 - **API design: REST vs GraphQL vs gRPC.** You write backend code, this is a conversation you've probably had opinions on already.
 
-## 2. .NET / C# Deep Dives
-
-**What you've already covered:** IEnumerable deferred execution, Generic Hosts, ASP.NET Middleware, Composition patterns, FunMark benchmarking
-
-**Topics you'd likely dig into:**
-- **Channels and async streams in C#.** You liked deferred execution; producer-consumer patterns with `System.Threading.Channels` and `IAsyncEnumerable` are in the same spirit.
-- **Source generators and compile-time metaprogramming.** Understanding how the framework does magic at build time. Very "how things work under the hood."
-- **Minimal APIs deep dive.** You covered Generic Host and middleware already. How Minimal APIs wire things differently would complete the trilogy.
-- **.NET Aspire and cloud-native .NET.** The new orchestration layer for distributed .NET apps. If you're interested in Generic Host, this is its evolution.
-- **Memory management, Span<T>, and performance tricks.** Your FunMark benchmarking post shows you care about performance. `Span<T>`, `Memory<T>`, object pooling, and reducing allocations would scratch that itch.
-
-## 3. Operating Systems & Systems Programming
+## 2. Operating Systems & Systems Programming
 
 **What you've already covered:** macOS SIP/kernel lockdown, Windows file system structure
 
@@ -42,7 +31,7 @@ Your blogs cluster around a few recurring themes: you like understanding **how t
 - **eBPF for observability.** A relatively new way to instrument the Linux kernel without loading kernel modules. You wrote about macOS kext restrictions, eBPF is the Linux world's answer to "how do you extend the kernel safely."
 - **File systems compared** (ext4, Btrfs, ZFS, APFS). You wrote about Windows file _structure_; the file _system_ layer underneath is equally fascinating.
 
-## 4. Developer Tooling & Workflow
+## 3. Developer Tooling & Workflow
 
 **What you've already covered:** Jujutsu VCS, console debugging methods, URL/redirect tricks, resume sharing automation
 
@@ -52,7 +41,7 @@ Your blogs cluster around a few recurring themes: you like understanding **how t
 - **Observability stack for developers.** OpenTelemetry, structured logging, distributed tracing. Connects your middleware interest (where you'd instrument things) with your practical tooling mindset.
 - **AI-assisted development tools** and how they fit into workflows. You're already using them, writing about the experience would be natural.
 
-## 5. Networking & Security
+## 4. Networking & Security
 
 **What you've already covered:** PCAP to CSV conversion, WiFi password extraction, macOS kernel security
 
@@ -62,7 +51,7 @@ Your blogs cluster around a few recurring themes: you like understanding **how t
 - **Web application security (OWASP Top 10) from a developer's perspective.** SQL injection, XSS, CSRF explained with .NET examples.
 - **DNS deep dive.** You've touched DNS with your URL redirect post. How DNS resolution actually works, DNS-over-HTTPS, and DNS as an attack vector could be interesting.
 
-## 6. Python Scripting & Automation
+## 5. Python Scripting & Automation
 
 **What you've already covered:** WhatsApp automation, YouTube downloader, WiFi extraction, PCAP parsing, Office file extraction, Heroku deployment
 
@@ -71,7 +60,7 @@ Your blogs cluster around a few recurring themes: you like understanding **how t
 - **Building CLI tools properly** with Click or Typer. You build scripts, packaging them as proper CLI tools is the next level.
 - **Task orchestration with Celery or Prefect.** Going from single scripts to coordinated workflows.
 
-## 7. Frontend Architecture (Occasional Interest)
+## 6. Frontend Architecture (Occasional Interest)
 
 **What you've already covered:** NgRx store pattern, JavaScript console methods
 

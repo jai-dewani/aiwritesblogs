@@ -38,13 +38,12 @@ jobs:
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
             
-            git add content/blog/
-            
-            # Extract slug robustly
+            # Extract slug robustly before staging
             LATEST_SLUG=$(git status --porcelain content/blog/ | grep -E '^\?\?|^ A' | head -n 1 | awk '{print $2}')
             SLUG="${LATEST_SLUG#content/blog/}"
             SLUG="${SLUG%%/*}"
             
+            git add content/blog/
             COMMIT_MSG="add blog post about $SLUG"
             echo "Committing with message: '$COMMIT_MSG'"
             git commit -m "$COMMIT_MSG"

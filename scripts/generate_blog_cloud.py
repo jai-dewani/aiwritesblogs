@@ -73,43 +73,47 @@ def main():
         "4. Output the result in valid JSON matching the schema precisely. Do not wrap the JSON in markdown code blocks. Return ONLY the raw JSON."
     )
 
-    # Map your local config model to the free cloud model
-    model_mapping = {
-        "gemini-3.1-pro-high": "gemini-1.5-pro-latest",
-        "gemini-3.1-pro-low": "gemini-1.5-pro-latest",
-        "gemini-3.5-flash-high": "gemini-1.5-flash-latest",
-        "gemini-3.5-flash-medium": "gemini-1.5-flash-latest",
-        "gemini-3.5-flash-low": "gemini-1.5-flash-latest",
-        "gemini-3.6-flash-high": "gemini-1.5-flash-latest",
-        "gemini-3.6-flash-medium": "gemini-1.5-flash-latest",
-        "gemini-3.6-flash-low": "gemini-1.5-flash-latest"
-    }
-    api_model = model_mapping.get(model, "gemini-1.5-pro-latest")
-    print(f"Calling Gemini API endpoint for model: {api_model}...")
+    # Prioritized list of models with active quotas on your current API tier
+    fallback_models = [
+        "gemini-3.6-flash", 
+        "gemini-3.5-flash", 
+        "gemini-3-flash-preview", 
+        "gemini-2.5-flash"
+    ]
+    text_content = None
 
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{api_model}:generateContent?key={api_key}"
-    payload = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "systemInstruction": {"parts": [{"text": system_instruction}]},
-        "generationConfig": {"responseMimeType": "application/json"}
-    }
-    
-    req = urllib.request.Request(
-        url,
-        data=json.dumps(payload).encode('utf-8'),
-        headers={'Content-Type': 'application/json'},
-        method='POST'
-    )
-    
-    try:
-        with urllib.request.urlopen(req, timeout=180) as response:
-            res_data = json.loads(response.read().decode('utf-8'))
-            text_content = res_data['candidates'][0]['content']['parts'][0]['text']
-    except urllib.error.HTTPError as e:
-        print(f"ERROR: HTTP {e.code}: {e.read().decode('utf-8')}", file=sys.stderr)
-        sys.exit(1)
-    except Exception as e:
-        print(f"ERROR: Gemini API call failed: {e}", file=sys.stderr)
+    for api_model in fallback_models:
+        print(f"Attempting Gemini API endpoint for model: {api_model}...")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{api_model}:generateContent?key={api_key}"
+        payload = {
+            "contents": [{"parts": [{"text": prompt}]}],
+            "systemInstruction": {"parts": [{"text": system_instruction}]},
+            "generationConfig": {"responseMimeType": "application/json"}
+        }
+        
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode('utf-8'),
+            headers={'Content-Type': 'application/json'},
+            method='POST'
+        )
+        
+        try:
+            with urllib.request.urlopen(req, timeout=180) as response:
+                res_data = json.loads(response.read().decode('utf-8'))
+                text_content = res_data['candidates'][0]['content']['parts'][0]['text']
+                print(f"Successfully generated content using model: {api_model}")
+                break # Exit the fallback loop on success
+        except urllib.error.HTTPError as e:
+            error_details = e.read().decode('utf-8')
+            print(f"Warning: HTTP {e.code} for model {api_model}: {error_details}", file=sys.stderr)
+            continue # Try next model
+        except Exception as e:
+            print(f"Warning: API call failed for model {api_model}: {e}", file=sys.stderr)
+            continue # Try next model
+            
+    if not text_content:
+        print("ERROR: All fallback models failed to generate content.", file=sys.stderr)
         sys.exit(1)
 
     text_content = text_content.strip()
