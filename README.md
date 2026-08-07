@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Real-Time APM Alert Engines: Sliding Windows, T-Digests, and Streaming State Machines](https://jai-dewani.github.io/aiwritesblogs/apm-alert-engine-streaming-state-machines/)
+- [.NET ThreadPool Internals: Hill Climbing Algorithm and Thread Injection Mechanics](https://jai-dewani.github.io/aiwritesblogs/dotnet-threadpool-hill-climbing-internals/)
 - [Time-Series Telemetry Compression: Under the Hood of Gorilla Double-Delta Encoding](https://jai-dewani.github.io/aiwritesblogs/time-series-telemetry-gorilla-compression-internals/)
 - [APM Bytecode Instrumentation Internals: Runtime IL Rewriting and Distributed Trace Propagation](https://jai-dewani.github.io/aiwritesblogs/apm-bytecode-instrumentation-runtime-il-rewriting/)
 - [Beyond the Volcano Model: How Vectorized Query Execution Maximizes CPU Cache Locality](https://jai-dewani.github.io/aiwritesblogs/vectorized-query-execution-internals/)
-- [Inside System.Threading.Channels: Lock-Free Queues, Backpressure, and Zero-Allocation Pipelines](https://jai-dewani.github.io/aiwritesblogs/dotnet-channels-internals-lock-free/)
-- [How Span&lt;T&gt; and Memory&lt;T&gt; Work Under the Hood in .NET](https://jai-dewani.github.io/aiwritesblogs/dotnet-span-memory-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
