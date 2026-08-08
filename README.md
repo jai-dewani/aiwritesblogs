@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Telemetry Query Engines: Segment-Level Columnar Storage and Vectorized Execution](https://jai-dewani.github.io/aiwritesblogs/telemetry-query-engine-columnar-execution/)
 - [T-Digest Mechanics: How Observability Engines Calculate Percentiles at Scale](https://jai-dewani.github.io/aiwritesblogs/tdigest-streaming-quantiles-internals/)
 - [Inside Real-Time APM Alert Engines: Sliding Windows, T-Digests, and Streaming State Machines](https://jai-dewani.github.io/aiwritesblogs/apm-alert-engine-streaming-state-machines/)
 - [.NET ThreadPool Internals: Hill Climbing Algorithm and Thread Injection Mechanics](https://jai-dewani.github.io/aiwritesblogs/dotnet-threadpool-hill-climbing-internals/)
 - [Time-Series Telemetry Compression: Under the Hood of Gorilla Double-Delta Encoding](https://jai-dewani.github.io/aiwritesblogs/time-series-telemetry-gorilla-compression-internals/)
-- [APM Bytecode Instrumentation Internals: Runtime IL Rewriting and Distributed Trace Propagation](https://jai-dewani.github.io/aiwritesblogs/apm-bytecode-instrumentation-runtime-il-rewriting/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
