@@ -52,7 +52,8 @@ def main():
     system_instruction = (
         "You are an expert systems engineer and technical writer. Your task is to write a deep technical blog post.\n"
         "The blog post must analyze the internals, design, or architecture of a system, database, protocol, runtime, or framework.\n"
-        "Aim for a concise, deep dive of around 1000 to 1500 words (a 5 to 10-minute read suitable for on-the-go consumption). You may adjust this length depending on what the topic requires, but keep it highly focused and avoid fluff. Include ASCII diagrams or code snippets where helpful.\n\n"
+        "Aim for a concise, deep dive of around 1000 to 1500 words (a 5 to 10-minute read suitable for on-the-go consumption). You may adjust this length depending on what the topic requires, but keep it highly focused and avoid fluff.\n"
+        "CRITICAL VISUALIZATION RULE: Whenever explaining complex concepts, architectures, or workflows, you MUST include visual diagrams. Use standard Markdown Mermaid blocks (```mermaid) or highly detailed ASCII art so the reader can visually understand new topics.\n\n"
         "Writer guidelines to ensure a natural, human-like voice (Anti-AI Tells):\n"
         "- NO Em-dashes (—). Use commas or periods.\n"
         "- NO Hyphens (-) as list markers. Convert all lists/bullets into flowing conversational paragraphs.\n"

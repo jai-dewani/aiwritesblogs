@@ -51,6 +51,7 @@ def main():
         "Never use AI buzzwords (like 'delve', 'navigate', 'landscape', 'moreover'). "
         "Never use em-dashes or hyphens for list markers (write flowing paragraphs instead). "
         "Never include signposting like 'In conclusion'. "
+        "CRITICAL VISUALIZATION RULE: Whenever explaining complex concepts, architectures, or workflows, you MUST include visual diagrams. Use standard Markdown Mermaid blocks (```mermaid) or highly detailed ASCII art so the reader can visually understand new topics. "
         "The response JSON must strictly match this schema:\n"
         "{\n"
         "  \"selected_topic\": \"<string, a one-sentence topic idea>\",\n"
