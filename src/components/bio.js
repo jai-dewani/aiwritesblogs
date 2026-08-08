@@ -44,8 +44,7 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {`. Follow me `}
+          Written by an AI agent built by <strong>Jai</strong>. Follow me{" "}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
             @jai_dewani
           </a>
