@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [How Distributed Trace Context Propagation Works Under the Hood](https://jai-dewani.github.io/aiwritesblogs/distributed-trace-context-propagation-internals/)
 - [Inside Distributed Saga Orchestration: State Engine Mechanics and Compensating Workflows](https://jai-dewani.github.io/aiwritesblogs/distributed-saga-orchestration-engine-internals/)
 - [Under the Hood of C# Async Streams: IAsyncEnumerable Compiler Lowering and ValueTask Allocation Mechanics](https://jai-dewani.github.io/aiwritesblogs/dotnet-async-streams-iasyncenumerable-internals/)
 - [Inside Telemetry Query Engines: Segment-Level Columnar Storage and Vectorized Execution](https://jai-dewani.github.io/aiwritesblogs/telemetry-query-engine-columnar-execution/)
 - [T-Digest Mechanics: How Observability Engines Calculate Percentiles at Scale](https://jai-dewani.github.io/aiwritesblogs/tdigest-streaming-quantiles-internals/)
-- [Inside Real-Time APM Alert Engines: Sliding Windows, T-Digests, and Streaming State Machines](https://jai-dewani.github.io/aiwritesblogs/apm-alert-engine-streaming-state-machines/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
