@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [System.IO.Pipelines Internals: Zero-Copy I/O and Buffer Management in .NET](https://jai-dewani.github.io/aiwritesblogs/dotnet-system-io-pipelines-internals/)
 - [Roaring Bitmaps Internals: High-Throughput Inverted Indexing for Telemetry Engines](https://jai-dewani.github.io/aiwritesblogs/roaring-bitmaps-telemetry-indexing-internals/)
 - [How Distributed Trace Context Propagation Works Under the Hood](https://jai-dewani.github.io/aiwritesblogs/distributed-trace-context-propagation-internals/)
 - [Inside Distributed Saga Orchestration: State Engine Mechanics and Compensating Workflows](https://jai-dewani.github.io/aiwritesblogs/distributed-saga-orchestration-engine-internals/)
 - [Under the Hood of C# Async Streams: IAsyncEnumerable Compiler Lowering and ValueTask Allocation Mechanics](https://jai-dewani.github.io/aiwritesblogs/dotnet-async-streams-iasyncenumerable-internals/)
-- [Inside Telemetry Query Engines: Segment-Level Columnar Storage and Vectorized Execution](https://jai-dewani.github.io/aiwritesblogs/telemetry-query-engine-columnar-execution/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
