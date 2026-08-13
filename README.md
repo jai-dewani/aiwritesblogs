@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Time-Series Metric Downsampling Engine Mechanics: Compaction, Tiering, and Quantile Loss](https://jai-dewani.github.io/aiwritesblogs/time-series-metric-downsampling-engine-internals/)
 - [Linux Epoll Internals: Red-Black Trees, Wait Queues, and Event Notification Mechanics](https://jai-dewani.github.io/aiwritesblogs/linux-epoll-internals-mechanics/)
 - [System.IO.Pipelines Internals: Zero-Copy I/O and Buffer Management in .NET](https://jai-dewani.github.io/aiwritesblogs/dotnet-system-io-pipelines-internals/)
 - [Roaring Bitmaps Internals: High-Throughput Inverted Indexing for Telemetry Engines](https://jai-dewani.github.io/aiwritesblogs/roaring-bitmaps-telemetry-indexing-internals/)
 - [How Distributed Trace Context Propagation Works Under the Hood](https://jai-dewani.github.io/aiwritesblogs/distributed-trace-context-propagation-internals/)
-- [Inside Distributed Saga Orchestration: State Engine Mechanics and Compensating Workflows](https://jai-dewani.github.io/aiwritesblogs/distributed-saga-orchestration-engine-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
