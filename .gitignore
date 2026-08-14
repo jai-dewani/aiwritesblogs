@@ -61,6 +61,10 @@ public
 # Mac files
 .DS_Store
 
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
 # Yarn
 yarn-error.log
 .pnp/
