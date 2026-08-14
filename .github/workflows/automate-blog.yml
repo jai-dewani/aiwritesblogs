@@ -66,3 +66,17 @@ jobs:
           # Trigger the deploy workflow to publish the site and send the notification
           echo "Triggering the Gatsby Publish workflow to deploy the new post..."
           gh workflow run "Gatsby Publish" --ref main
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          NTFY_TOPIC=$(python3 -c "import json; print(json.load(open('config.json')).get('ntfy_topic', ''))" 2>/dev/null || echo "")
+          if [ -n "$NTFY_TOPIC" ] && [ "$NTFY_TOPIC" != "None" ]; then
+            echo "Sending failure notification to ntfy.sh topic: $NTFY_TOPIC"
+            curl -s \
+              -H "Title: Blog generation FAILED" \
+              -H "Priority: 5" \
+              -H "Tags: warning,x" \
+              -d "The AI Blog Generator workflow failed. Check GitHub Actions for details." \
+              "https://ntfy.sh/$NTFY_TOPIC"
+          fi
