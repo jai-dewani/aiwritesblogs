@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Postgres Write-Ahead Logging: LSN Architecture, Checkpoints, and Crash Recovery Engines](https://jai-dewani.github.io/aiwritesblogs/postgres-wal-lsn-crash-recovery-internals/)
+- [WireGuard Internals: Cryptokey Routing, Noise Protocol Handshakes, and Kernel State Mechanics](https://jai-dewani.github.io/aiwritesblogs/wireguard-internals-cryptokey-routing-noise-protocol/)
 - [Inside the Transactional Outbox Pattern: Dual-Write Solvers, WAL Tailing, and Batch Engine Mechanics](https://jai-dewani.github.io/aiwritesblogs/transactional-outbox-engine-internals/)
 - [Consistent Hashing Internals: Virtual Nodes, Token Rings, and Partition Rebalancing](https://jai-dewani.github.io/aiwritesblogs/consistent-hashing-virtual-nodes-rebalancing/)
 - [Protobuf Wire Format and gRPC Framing Mechanics: Zero-Copy Serialization Under the Hood](https://jai-dewani.github.io/aiwritesblogs/grpc-protobuf-wire-format-framing-internals/)
-- [Inside ext4: Inodes, Extent Trees, and JBD2 Journaling Mechanics](https://jai-dewani.github.io/aiwritesblogs/ext4-jbd2-journaling-internals/)
-- [OAuth 2.0 PKCE and JWKS Verification Engine Internals](https://jai-dewani.github.io/aiwritesblogs/oauth2-pkce-token-verification-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
