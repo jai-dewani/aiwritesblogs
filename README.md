@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [OCI Runtime Architecture: How containerd, runc, and Shim v2 Execute Containers](https://jai-dewani.github.io/aiwritesblogs/oci-runtime-containerd-runc-shim-internals/)
+- [Inside RabbitMQ: Erlang Process Topologies, Backing Queue State Machines, and Flow Control](https://jai-dewani.github.io/aiwritesblogs/rabbitmq-queue-engine-backing-queues-flow-control/)
 - [Inside Postgres Write-Ahead Logging: LSN Architecture, Checkpoints, and Crash Recovery Engines](https://jai-dewani.github.io/aiwritesblogs/postgres-wal-lsn-crash-recovery-internals/)
 - [WireGuard Internals: Cryptokey Routing, Noise Protocol Handshakes, and Kernel State Mechanics](https://jai-dewani.github.io/aiwritesblogs/wireguard-internals-cryptokey-routing-noise-protocol/)
 - [Inside the Transactional Outbox Pattern: Dual-Write Solvers, WAL Tailing, and Batch Engine Mechanics](https://jai-dewani.github.io/aiwritesblogs/transactional-outbox-engine-internals/)
-- [Consistent Hashing Internals: Virtual Nodes, Token Rings, and Partition Rebalancing](https://jai-dewani.github.io/aiwritesblogs/consistent-hashing-virtual-nodes-rebalancing/)
-- [Protobuf Wire Format and gRPC Framing Mechanics: Zero-Copy Serialization Under the Hood](https://jai-dewani.github.io/aiwritesblogs/grpc-protobuf-wire-format-framing-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
