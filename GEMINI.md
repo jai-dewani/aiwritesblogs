@@ -34,7 +34,7 @@ When writing, I MUST strictly adhere to these rules to ensure a natural, human-l
      description: "[One sentence technical summary]"
      ---
      ```
-   - **Include Visualizations:** Use ASCII diagrams or descriptive placeholders to help explain complex concepts.
+   - **Include Visualizations:** Use Mermaid diagrams (in ```mermaid code blocks) to help explain complex concepts.
    - **Include Code Snippets:** Use relevant code examples to explain technical concepts.
 3. **Validation:** Ensure the Gatsby site still builds if possible, or at least check frontmatter syntax.
 4. **Git:** Commit the new post using `caveman-commit` style and push to `main`.
