@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside NVMe Direct I/O: Submission Queues, Doorbell Registers, and Kernel blk-mq Mechanics](https://jai-dewani.github.io/aiwritesblogs/nvme-direct-io-controller-queues-internals/)
+- [Inside Postgres Vacuum: Page Layouts, Visibility Maps, and the Transaction ID Wraparound Protection Engine](https://jai-dewani.github.io/aiwritesblogs/postgres-vacuum-internals-mvcc-cleanup/)
 - [OCI Runtime Architecture: How containerd, runc, and Shim v2 Execute Containers](https://jai-dewani.github.io/aiwritesblogs/oci-runtime-containerd-runc-shim-internals/)
 - [Inside RabbitMQ: Erlang Process Topologies, Backing Queue State Machines, and Flow Control](https://jai-dewani.github.io/aiwritesblogs/rabbitmq-queue-engine-backing-queues-flow-control/)
 - [Inside Postgres Write-Ahead Logging: LSN Architecture, Checkpoints, and Crash Recovery Engines](https://jai-dewani.github.io/aiwritesblogs/postgres-wal-lsn-crash-recovery-internals/)
-- [WireGuard Internals: Cryptokey Routing, Noise Protocol Handshakes, and Kernel State Mechanics](https://jai-dewani.github.io/aiwritesblogs/wireguard-internals-cryptokey-routing-noise-protocol/)
-- [Inside the Transactional Outbox Pattern: Dual-Write Solvers, WAL Tailing, and Batch Engine Mechanics](https://jai-dewani.github.io/aiwritesblogs/transactional-outbox-engine-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
