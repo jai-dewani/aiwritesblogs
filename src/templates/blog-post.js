@@ -11,6 +11,31 @@ const BlogPostTemplate = ({
 }) => {
   const siteTitle = site.siteMetadata?.title || `Title`
 
+  React.useEffect(() => {
+    const mermaidBlocks = document.querySelectorAll(
+      ".gatsby-highlight[data-language='mermaid'], pre.language-mermaid"
+    )
+    if (mermaidBlocks.length > 0) {
+      import("mermaid").then(({ default: mermaid }) => {
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: "default",
+          securityLevel: "loose",
+        })
+        mermaidBlocks.forEach(block => {
+          const code = block.querySelector("code")?.textContent || block.textContent
+          const pre = document.createElement("pre")
+          pre.className = "mermaid"
+          pre.style.display = "flex"
+          pre.style.justifyContent = "center"
+          pre.textContent = code
+          block.replaceWith(pre)
+        })
+        mermaid.run({ querySelector: ".mermaid" })
+      })
+    }
+  }, [post.html])
+
   return (
     <Layout location={location} title={siteTitle}>
       <Seo
