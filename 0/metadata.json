@@ -1,0 +1,76 @@
+{
+  "cli_version": "0.11.3",
+  "checkpoint_id": "01M3SBCAXTNSPV2N16BNX2TRZC",
+  "session_id": "7a821c33-f080-4a41-9ef1-880c8c2204fc",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-30T14:27:17.011469Z",
+  "branch": "main",
+  "checkpoints_count": 3,
+  "save_step_count": 1,
+  "files_touched": [
+    "gatsby-config.js",
+    "package.json",
+    "src/templates/blog-post.js",
+    "yarn.lock"
+  ],
+  "agent": "Antigravity",
+  "model": "",
+  "turn_id": "181e073a6427",
+  "token_usage": {
+    "input_tokens": 85563,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 1221477,
+    "output_tokens": 14605,
+    "api_call_count": 27
+  },
+  "session_metrics": {
+    "turn_count": 3
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-30T14:27:16.996627Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 18872,
+    "human_removed": 18313,
+    "total_committed": 0,
+    "total_lines_changed": 37185,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 13668,
+      "user_lines_removed": 9999,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".agents/hooks.json": 28,
+        ".yarnrc.yml": 1,
+        "package.json": 1,
+        "src/templates/blog-post.js": 25,
+        "yarn.lock": 13613
+      },
+      "user_removed_per_file": {
+        "gatsby-config.js": 1,
+        "package.json": 2,
+        "yarn.lock": 9996
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 9464,
+      "user_lines_removed": 13593,
+      "agent_lines_added": 13639,
+      "agent_lines_removed": 9999,
+      "user_added_per_file": {
+        ".agents/hooks.json": 28,
+        "yarn.lock": 9436
+      },
+      "user_removed_per_file": {
+        "yarn.lock": 13593
+      }
+    }
+  ]
+}
