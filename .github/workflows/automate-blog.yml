@@ -3,8 +3,7 @@ name: AI Blog Generator
 on:
   schedule:
     # 3:30 AM UTC = 9:00 AM IST
-    # 11:30 AM UTC = 5:00 PM IST
-    - cron: '30 3,11 * * *'
+    - cron: '30 3 * * *'
   workflow_dispatch:
 
 permissions:
