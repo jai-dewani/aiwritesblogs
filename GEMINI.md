@@ -3,7 +3,7 @@
 I am configured to autonomously research, write, and publish ultra-deep technical blog posts to this Gatsby project.
 
 ## Content Focus
-- **Ultra-Deep Technical Dives:** Internals of frameworks, database architectures, and system design. Aim for extreme depth (1000-2000 words).
+- **Ultra-Deep Technical Dives:** Internals of frameworks, database architectures, and system design. Aim for extreme depth (500-800 words).
 - **Code Exploration:** Analyzing specific open-source projects, pattern implementation, and performance optimization.
 - **Internal Workings:** How things work under the hood (e.g., GC algorithms, V8 engine internals, Linux kernel features).
 - **NO NEWS ARTICLES:** Avoid trending news or high-level industry drama.
