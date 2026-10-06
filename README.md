@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Apache Arrow: Bitmaps, Slot Alignment, and Zero-Copy C Data Interface Mechanics](https://jai-dewani.github.io/aiwritesblogs/apache-arrow-memory-layout-zero-copy-internals/)
+- [Inside the mmap Syscall: Virtual Memory Areas, Page Fault File I/O, and the Page Cache](https://jai-dewani.github.io/aiwritesblogs/mmap-syscall-virtual-memory-page-faults-page-cache/)
 - [Inside Scrapy: Async Twisted Reactors, Request Fingerprinting, and Downloader Pipeline Mechanics](https://jai-dewani.github.io/aiwritesblogs/scrapy-engine-architecture-twisted-dupefilter-internals/)
 - [Zero-Copy IPC: Under the Hood of Shared Memory and Kernel Page Table Mapping](https://jai-dewani.github.io/aiwritesblogs/shared-memory-ipc-page-table-mappings/)
 - [Inside PagedAttention: Borrowing 1960s OS Memory Management to Scale LLM Inference](https://jai-dewani.github.io/aiwritesblogs/vllm-paged-attention-kv-cache-memory-management/)
-- [Precision is a Lie: The Linux hrtimer and Tickless Kernel Internals](https://jai-dewani.github.io/aiwritesblogs/linux-hrtimer-tickless-kernel-internals/)
-- [Inside Playwright: DevTools Protocol Multiplexing, V8 Isolated Worlds, and Auto-Waiting Engine Mechanics](https://jai-dewani.github.io/aiwritesblogs/playwright-browser-automation-internals-cdp-multiplexing/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
