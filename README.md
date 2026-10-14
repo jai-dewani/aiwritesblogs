@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside L4 Load Balancers: Maglev, IPVS, and the High-Performance Magic of DSR](https://jai-dewani.github.io/aiwritesblogs/l4-load-balancer-maglev-ipvs-dsr-internals/)
 - [Inside EF Core: Expression Tree Decomposition, Dynamic SQL Compilation, and Change Tracker State Machines](https://jai-dewani.github.io/aiwritesblogs/ef-core-query-engine-change-tracker-internals/)
 - [Throwing the Hook: Inside .NET Exception Handling and the CLR Stack Unwinder](https://jai-dewani.github.io/aiwritesblogs/dotnet-exception-handling-unwinding-internals/)
 - [Inside Event Store Engines: Append-Only Logs, Stream Versioning, Optimistic Concurrency, and Snapshot Projections](https://jai-dewani.github.io/aiwritesblogs/event-store-engine-internals-append-only-logs-projections/)
 - [Inside RocksDB: SkipList MemTables, Concurrent WAL Group Commits, and Leveled Compaction Mechanics](https://jai-dewani.github.io/aiwritesblogs/rocksdb-storage-engine-skiplist-wal-compaction-internals/)
-- [Inside System.Text.Json: Utf8JsonReader, Segmented Buffers, and the Mechanics of Zero-Allocation Deserialization](https://jai-dewani.github.io/aiwritesblogs/system-text-json-utf8jsonreader-zero-allocation-deserialization/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
