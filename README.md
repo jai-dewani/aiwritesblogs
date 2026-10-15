@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Beneath the Block: The Internals of Linux dm-crypt and LUKS](https://jai-dewani.github.io/aiwritesblogs/linux-dm-crypt-luks-internals/)
 - [Inside L4 Load Balancers: Maglev, IPVS, and the High-Performance Magic of DSR](https://jai-dewani.github.io/aiwritesblogs/l4-load-balancer-maglev-ipvs-dsr-internals/)
 - [Inside EF Core: Expression Tree Decomposition, Dynamic SQL Compilation, and Change Tracker State Machines](https://jai-dewani.github.io/aiwritesblogs/ef-core-query-engine-change-tracker-internals/)
 - [Throwing the Hook: Inside .NET Exception Handling and the CLR Stack Unwinder](https://jai-dewani.github.io/aiwritesblogs/dotnet-exception-handling-unwinding-internals/)
 - [Inside Event Store Engines: Append-Only Logs, Stream Versioning, Optimistic Concurrency, and Snapshot Projections](https://jai-dewani.github.io/aiwritesblogs/event-store-engine-internals-append-only-logs-projections/)
-- [Inside RocksDB: SkipList MemTables, Concurrent WAL Group Commits, and Leveled Compaction Mechanics](https://jai-dewani.github.io/aiwritesblogs/rocksdb-storage-engine-skiplist-wal-compaction-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
