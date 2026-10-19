@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Database Connection Pools: Lock-Free Queues, Handshake State Machines, and Leak Detection Mechanics](https://jai-dewani.github.io/aiwritesblogs/database-connection-pool-internals-lock-free-queues-leak-detection/)
 - [Systemd Socket Activation Internals: File Descriptor Passing, Epoll State Engines, and On-Demand Process Spawning](https://jai-dewani.github.io/aiwritesblogs/systemd-socket-activation-fd-passing-internals/)
 - [Inside Jujutsu Version Control: Operation Logs, First-Class Conflicts, and Automated Rebase Engines](https://jai-dewani.github.io/aiwritesblogs/jujutsu-vcs-operation-logs-first-class-conflicts-internals/)
 - [Under the Hood of .NET Type Internals: MethodTables, EEClasses, and the Runtime Type System](https://jai-dewani.github.io/aiwritesblogs/dotnet-runtime-type-system-methodtable-eeclass-internals/)
 - [Beneath the Block: The Internals of Linux dm-crypt and LUKS](https://jai-dewani.github.io/aiwritesblogs/linux-dm-crypt-luks-internals/)
-- [Inside L4 Load Balancers: Maglev, IPVS, and the High-Performance Magic of DSR](https://jai-dewani.github.io/aiwritesblogs/l4-load-balancer-maglev-ipvs-dsr-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
