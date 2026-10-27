@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Linux Traffic Control: Qdiscs, Classful Schedulers, and Kernel Netlink Mechanics](https://jai-dewani.github.io/aiwritesblogs/linux-traffic-control-qdisc-architecture-internals/)
 - [Freezing Time: The Internals of Linux CRIU and Process Migration](https://jai-dewani.github.io/aiwritesblogs/linux-criu-process-checkpoint-internals/)
 - [Inside the .NET Diagnostic Pipe: The Hidden IPC Protocol Powering dotnet-trace](https://jai-dewani.github.io/aiwritesblogs/dotnet-diagnostic-pipe-eventpipe-ipc-internals/)
 - [Root is a Lie: Inside the Linux Capabilities Engine and Privilege Partitioning](https://jai-dewani.github.io/aiwritesblogs/linux-capabilities-internals-privilege-partitioning/)
 - [Beyond the 8KB Limit: Inside Postgres TOAST and the Mechanics of Oversized-Attribute Storage](https://jai-dewani.github.io/aiwritesblogs/postgres-toast-internals-oversized-attribute-storage/)
-- [Inside Apple File System &lpar;APFS&rpar;: Container Superblocks, Object Map Virtualization, and Space Sharing](https://jai-dewani.github.io/aiwritesblogs/apfs-filesystem-internals-object-map-cow/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
