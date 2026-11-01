@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Kafka Transaction Engine Mechanics: Producer Epochs, Control Markers, and Two-Phase Commit](https://jai-dewani.github.io/aiwritesblogs/kafka-transaction-engine-epochs-control-markers/)
 - [Kernel TLS Internals: In-Kernel Symmetric Encryption, Offload Handshakes, and Zero-Copy Sockets](https://jai-dewani.github.io/aiwritesblogs/ktls-in-kernel-symmetric-encryption-internals/)
 - [Beyond the Red-Black Tree: Inside the Linux Maple Tree and the Future of VMA Management](https://jai-dewani.github.io/aiwritesblogs/linux-kernel-maple-tree-vma-internals/)
 - [Inside Kafka Consumer Group Rebalancing: Protocol Handshakes, GroupCoordinator State Machines, and Incremental Cooperative Assignment](https://jai-dewani.github.io/aiwritesblogs/kafka-consumer-group-rebalance-protocol-internals/)
 - [Inside System.Buffers.ArrayPool: Per-Core Lock-Free Stacks, Bucket Allocation, and Memory Trimming Engines](https://jai-dewani.github.io/aiwritesblogs/dotnet-arraypool-internals-per-core-stacks-bucket-eviction/)
-- [Inside Linux Traffic Control: Qdiscs, Classful Schedulers, and Kernel Netlink Mechanics](https://jai-dewani.github.io/aiwritesblogs/linux-traffic-control-qdisc-architecture-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
