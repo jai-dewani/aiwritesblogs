@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Kafka Producer Internals: RecordAccumulator, BufferPool Allocations, and NetworkClient Batching](https://jai-dewani.github.io/aiwritesblogs/kafka-producer-internals-recordaccumulator-bufferpool-batching/)
 - [Inside Redis Cluster: Hash Slots, Gossip-Based Failure Detection, and the Mechanics of Master-Slave Failover](https://jai-dewani.github.io/aiwritesblogs/redis-cluster-hash-slots-gossip-protocol-internals/)
 - [Scalability is a Parallelism Problem: Inside XFS Filesystem Internals](https://jai-dewani.github.io/aiwritesblogs/xfs-internals-allocation-groups-btree-mechanics/)
 - [Inside Linux File Notification Engines: Inotify, Fanotify, and VFS Event Subsystems](https://jai-dewani.github.io/aiwritesblogs/linux-inotify-fanotify-vfs-event-internals/)
 - [Inside SocketsHttpHandler: Connection Pooling, HTTP/2 Multiplexing, and Socket Mechanics in .NET](https://jai-dewani.github.io/aiwritesblogs/dotnet-socketshttphandler-connection-pooling-multiplexing-internals/)
-- [Inside Kafka Transaction Engine Mechanics: Producer Epochs, Control Markers, and Two-Phase Commit](https://jai-dewani.github.io/aiwritesblogs/kafka-transaction-engine-epochs-control-markers/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
