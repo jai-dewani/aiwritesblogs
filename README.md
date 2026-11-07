@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Multi-Tier Caching: L1/L2 Synchronization, Bus Invalidations, and Probabilistic Early Expiration](https://jai-dewani.github.io/aiwritesblogs/multi-tier-cache-synchronization-invalidation-stampede-internals/)
 - [Inside Kafka Producer Internals: RecordAccumulator, BufferPool Allocations, and NetworkClient Batching](https://jai-dewani.github.io/aiwritesblogs/kafka-producer-internals-recordaccumulator-bufferpool-batching/)
 - [Inside Redis Cluster: Hash Slots, Gossip-Based Failure Detection, and the Mechanics of Master-Slave Failover](https://jai-dewani.github.io/aiwritesblogs/redis-cluster-hash-slots-gossip-protocol-internals/)
 - [Scalability is a Parallelism Problem: Inside XFS Filesystem Internals](https://jai-dewani.github.io/aiwritesblogs/xfs-internals-allocation-groups-btree-mechanics/)
 - [Inside Linux File Notification Engines: Inotify, Fanotify, and VFS Event Subsystems](https://jai-dewani.github.io/aiwritesblogs/linux-inotify-fanotify-vfs-event-internals/)
-- [Inside SocketsHttpHandler: Connection Pooling, HTTP/2 Multiplexing, and Socket Mechanics in .NET](https://jai-dewani.github.io/aiwritesblogs/dotnet-socketshttphandler-connection-pooling-multiplexing-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
