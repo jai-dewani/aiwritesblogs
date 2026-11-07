@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[9590],{9590:function(e,t,r){r.d(t,{createPieServices:function(){return s.f}});var s=r(6041);r(4954)}}]);
