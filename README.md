@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside Apache Pulsar: BookKeeper Ledgers, Journal Syncs, and Managed Ledger State Machines](https://jai-dewani.github.io/aiwritesblogs/apache-pulsar-bookkeeper-storage-engine-internals/)
 - [Inside APM Anomaly Detection: Holt-Winters Smoothing, Streaming Baselines, and Dynamic Threshold Engines](https://jai-dewani.github.io/aiwritesblogs/apm-anomaly-detection-holt-winters-streaming-baselines/)
 - [Inside Linux Pressure Stall Information &lpar;PSI&rpar;: Kernel Window Accounting, Stall Tracking, and Proactive Memory Reclamation Mechanics](https://jai-dewani.github.io/aiwritesblogs/linux-psi-pressure-stall-information-internals/)
 - [Inside Multi-Tier Caching: L1/L2 Synchronization, Bus Invalidations, and Probabilistic Early Expiration](https://jai-dewani.github.io/aiwritesblogs/multi-tier-cache-synchronization-invalidation-stampede-internals/)
 - [Inside Kafka Producer Internals: RecordAccumulator, BufferPool Allocations, and NetworkClient Batching](https://jai-dewani.github.io/aiwritesblogs/kafka-producer-internals-recordaccumulator-bufferpool-batching/)
-- [Inside Redis Cluster: Hash Slots, Gossip-Based Failure Detection, and the Mechanics of Master-Slave Failover](https://jai-dewani.github.io/aiwritesblogs/redis-cluster-hash-slots-gossip-protocol-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
