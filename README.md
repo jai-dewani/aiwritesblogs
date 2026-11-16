@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside .NET Structured Logging: LoggerMessage Generators, Custom Interpolated String Handlers, and Zero-Alloc Telemetry](https://jai-dewani.github.io/aiwritesblogs/dotnet-structured-logging-loggermessage-interpolated-string-handlers/)
 - [Inside Kafka Purgatory: Hierarchical Timing Wheels, Delayed Operations, and O&lpar;1&rpar; Timer Mechanics](https://jai-dewani.github.io/aiwritesblogs/kafka-purgatory-hierarchical-timing-wheels-internals/)
 - [Inside Microsoft.Extensions.DependencyInjection: CallSite Trees, Expression Compilation, and Scope Lifecycle State Engines](https://jai-dewani.github.io/aiwritesblogs/dotnet-dependency-injection-callsite-engine-internals/)
 - [Linking the Core: Inside the Linux Kernel Module Loader and ELF Relocations](https://jai-dewani.github.io/aiwritesblogs/linux-kernel-module-loader-elf-relocations-internals/)
 - [Inside DAG Orchestration Engines: Task Graph Traversal, Topological Sorting, and State Machine Mechanics](https://jai-dewani.github.io/aiwritesblogs/dag-orchestration-engine-topological-sort-execution-internals/)
-- [Inside Terminal Multiplexers: Virtual Terminal Emulation, Dual Screen Buffers, and Cell Grid Diffing Engines](https://jai-dewani.github.io/aiwritesblogs/terminal-multiplexer-internals-screen-buffers-vt-emulation/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
