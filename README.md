@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside APM Agent Harvest Cycles: Local Aggregation Trees, Reservoir Sampling, and Memory-Bounded Telemetry Buffers](https://jai-dewani.github.io/aiwritesblogs/apm-agent-harvest-cycle-memory-bounded-aggregation/)
 - [Inside the .NET GC Handle Table: Weak, Pinned, and Dependent Reference Mechanics](https://jai-dewani.github.io/aiwritesblogs/dotnet-gc-handle-table-internals/)
 - [Beyond the Local Bus: Inside NVMe-over-Fabrics &lpar;NVMe-oF&rpar; and the RDMA/TCP Transport Mechanics](https://jai-dewani.github.io/aiwritesblogs/nvme-over-fabrics-rdma-tcp-transport-internals/)
 - [Inside .NET Structured Logging: LoggerMessage Generators, Custom Interpolated String Handlers, and Zero-Alloc Telemetry](https://jai-dewani.github.io/aiwritesblogs/dotnet-structured-logging-loggermessage-interpolated-string-handlers/)
 - [Inside Kafka Purgatory: Hierarchical Timing Wheels, Delayed Operations, and O&lpar;1&rpar; Timer Mechanics](https://jai-dewani.github.io/aiwritesblogs/kafka-purgatory-hierarchical-timing-wheels-internals/)
-- [Inside Microsoft.Extensions.DependencyInjection: CallSite Trees, Expression Compilation, and Scope Lifecycle State Engines](https://jai-dewani.github.io/aiwritesblogs/dotnet-dependency-injection-callsite-engine-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
