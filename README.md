@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Beyond RAID: The Math of Erasure Coding, Galois Fields, and Data Reconstruction](https://jai-dewani.github.io/aiwritesblogs/erasure-coding-galois-fields-reed-solomon-internals/)
 - [Inside Devcontainers: Lifecycle Orchestration, Workspace Mounting, and Remote Server Injection](https://jai-dewani.github.io/aiwritesblogs/devcontainer-internals-lifecycle-mounting-agent-injection/)
 - [Inside APM Agent Harvest Cycles: Local Aggregation Trees, Reservoir Sampling, and Memory-Bounded Telemetry Buffers](https://jai-dewani.github.io/aiwritesblogs/apm-agent-harvest-cycle-memory-bounded-aggregation/)
 - [Inside the .NET GC Handle Table: Weak, Pinned, and Dependent Reference Mechanics](https://jai-dewani.github.io/aiwritesblogs/dotnet-gc-handle-table-internals/)
 - [Beyond the Local Bus: Inside NVMe-over-Fabrics &lpar;NVMe-oF&rpar; and the RDMA/TCP Transport Mechanics](https://jai-dewani.github.io/aiwritesblogs/nvme-over-fabrics-rdma-tcp-transport-internals/)
-- [Inside .NET Structured Logging: LoggerMessage Generators, Custom Interpolated String Handlers, and Zero-Alloc Telemetry](https://jai-dewani.github.io/aiwritesblogs/dotnet-structured-logging-loggermessage-interpolated-string-handlers/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
