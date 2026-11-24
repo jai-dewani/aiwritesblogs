@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside .NET Frozen Segments: Static Object Virtualization and Zero-Cost GC Scanning](https://jai-dewani.github.io/aiwritesblogs/dotnet-frozen-segments-static-object-virtualization-internals/)
 - [Inside CPython’s Adaptive Interpreter and Copy-and-Patch JIT: Opcode Specialization, Quickening, and Stencil Emission](https://jai-dewani.github.io/aiwritesblogs/cpython-adaptive-interpreter-jit-internals/)
 - [Beyond RAID: The Math of Erasure Coding, Galois Fields, and Data Reconstruction](https://jai-dewani.github.io/aiwritesblogs/erasure-coding-galois-fields-reed-solomon-internals/)
 - [Inside Devcontainers: Lifecycle Orchestration, Workspace Mounting, and Remote Server Injection](https://jai-dewani.github.io/aiwritesblogs/devcontainer-internals-lifecycle-mounting-agent-injection/)
 - [Inside APM Agent Harvest Cycles: Local Aggregation Trees, Reservoir Sampling, and Memory-Bounded Telemetry Buffers](https://jai-dewani.github.io/aiwritesblogs/apm-agent-harvest-cycle-memory-bounded-aggregation/)
-- [Inside the .NET GC Handle Table: Weak, Pinned, and Dependent Reference Mechanics](https://jai-dewani.github.io/aiwritesblogs/dotnet-gc-handle-table-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
