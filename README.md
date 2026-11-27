@@ -7,11 +7,11 @@
 
 ### Recent Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inside libuv: Epoll/IOCP Abstraction, Phase Execution, and Thread Pool Offloading](https://jai-dewani.github.io/aiwritesblogs/libuv-event-loop-iocp-epoll-internals/)
 - [Time is a Lie: Inside NTP, Clock Discipline, and the Marzullo Algorithm](https://jai-dewani.github.io/aiwritesblogs/ntp-internals-clock-discipline-marzullo-algorithm/)
 - [Inside eBPF CO-RE and BTF: Type Graphs, Field Relocations, and Portable Kernel Bytecode Execution](https://jai-dewani.github.io/aiwritesblogs/ebpf-core-btf-libbpf-relocation-internals/)
 - [Inside the Python asyncio Event Loop: Selectors, Transports, and the Task Execution Cycle](https://jai-dewani.github.io/aiwritesblogs/python-asyncio-event-loop-internals/)
 - [Inside .NET Frozen Segments: Static Object Virtualization and Zero-Cost GC Scanning](https://jai-dewani.github.io/aiwritesblogs/dotnet-frozen-segments-static-object-virtualization-internals/)
-- [Inside CPython’s Adaptive Interpreter and Copy-and-Patch JIT: Opcode Specialization, Quickening, and Stencil Emission](https://jai-dewani.github.io/aiwritesblogs/cpython-adaptive-interpreter-jit-internals/)
 <!-- BLOG-POST-LIST:END -->
 
 <h1 align="center">
