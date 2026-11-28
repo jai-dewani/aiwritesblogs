@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[7632],{7632:function(e,t,r){r.d(t,{createWardleyServices:function(){return s.J}});var s=r(9427);r(4954)}}]);
